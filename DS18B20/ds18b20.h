@@ -9,6 +9,7 @@
 #define DS18B20_IO_IN()  {GPIOB->CRH&=0XFFFFF0FF;GPIOB->CRH|=8<<8;} 
 #define DS18B20_IO_OUT() {GPIOB->CRH&=0XFFFFF0FF;GPIOB->CRH|=3<<8;}
 //测试git提交
+//这个第二次提交
 //////数据端口PB10 输入/输出
 #define	DS18B20_DQ_OUT PBout(10) //数据端口	
 #define	DS18B20_DQ_IN  PBin(10)  //数据端口	
