@@ -4,8 +4,6 @@
 u8 DS18B20_ID[MaxSensorNum][8];	// 存检测到的传感器DS18B20_ID的数组,前面的维数代表单根线传感器数量上限
 u8 DS18B20_SensorNum;			// 检测到的传感器数量(从1开始，例如显示1代表1个，8代表8个)
 
-
-//测试git提交
 void DS18B20_Rst(void)	   
 {
 	DS18B20_IO_OUT(); //SET PC6 OUTPUT
